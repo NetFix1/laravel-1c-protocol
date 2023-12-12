@@ -1,0 +1,44 @@
+{
+  "name": "mavsan/laravel-1c-protocol",
+  "description": "Easy solution for 1C CommerceML exchange with a laravel website",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "framework",
+    "laravel",
+    "1C",
+    "1С"
+  ],
+  "require": {},
+  "authors": [
+    {
+      "name": "Maksim Klimenko",
+      "email": "mavsan@gmail.com"
+    },
+    {
+      "name": "Arsen Goian",
+      "email": "arsengoian@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "classmap": [],
+    "files": [],
+    "psr-4": {
+      "Mavsan\\LaProtocol\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Mavsan\\LaProtocol\\Providers\\ProtocolProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [],
+    "post-create-project-cmd": [],
+    "post-install-cmd": [],
+    "post-update-cmd": []
+  }
+}

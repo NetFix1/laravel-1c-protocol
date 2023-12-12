@@ -1,0 +1,3 @@
+/vendor/
+/src/Tests/Unit/fakeImportProtocolTest.*
+/src/Tests/.phpunit.result.cache
